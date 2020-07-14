@@ -121,3 +121,12 @@ Processing by PostsController#show as HTML
 Completed 200 OK in 31ms (Views: 28.7ms | ActiveRecord: 0.1ms)
 
 
+Started GET "/posts/2" for 24.6.126.127 at 2020-07-14 05:09:03 +0000
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 27ms (Views: 24.6ms | ActiveRecord: 0.1ms)
+
+
