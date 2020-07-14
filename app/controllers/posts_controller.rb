@@ -12,8 +12,8 @@ class PostsController < ApplicationController
   end
 
   # add create method here
-  def create 
+  def create
 
   end
-  
+
 end
